@@ -18,9 +18,9 @@ console.log(kiubu("valeria"));
 const kiubu2 = (nombre) => `hola, ${nombre}`;
 console.log(kiubu2("antonio"));
 
-const getUser = () => ({
+const getUser = ()=> ({
   id: "ABC",
-  username: "usuario 1 ",
+  username: "usuario 1 "
 });
 
 const user = getUser();
@@ -28,8 +28,8 @@ console.log(user);
 
 const getUserActivo = (nombre) => ({
   uid: "222",
-  user: nombre,
+  user: nombre
 });
 
-const userActivo = getUserActivo("hugo");
+const userActivo = getUserActivo ("hugo");
 console.log(userActivo);
